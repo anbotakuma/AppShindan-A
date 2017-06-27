@@ -39,6 +39,22 @@ public class Shindan {
 	}
 
 	public void sirumon6() {
+		int i = 0;
+
+		System.out.print("質問6");
+		System.out.print("好きな色");
+		System.out.print("1.赤  2.青");
+
+		do{
+			System.out.println("解答:" + i = sc.nextInt());
+			if(i < 1 || 2 < i) {
+				System.out.println("指定した値を入力してください");
+				System.out.println();
+			}
+		}
+
+		while(i < 1 || 2 < i);
+			return i;
 
 	}
 }
